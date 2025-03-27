@@ -15,6 +15,7 @@ export default function Getdata() {
             
         } catch (error) {
             console.log(error)
+           console.log(error1)
         }
        }
       getdata()
