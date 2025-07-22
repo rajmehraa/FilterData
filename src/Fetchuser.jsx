@@ -12,6 +12,7 @@ export default function Hello() {
       setCount(data); // Now you can safely set the data once it's fetched
     };
     console.log(data)
+    console.log(data)
     getUserdata(); // Call the async function inside useEffect
 
   }, []); // Empty dependency array ensures it only runs once, when the component mounts.
